@@ -1,0 +1,23 @@
+{
+  "name": "algolabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script/app.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iyke09/algoLabs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iyke09/algoLabs/issues"
+  },
+  "homepage": "https://github.com/Iyke09/algoLabs#readme",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
