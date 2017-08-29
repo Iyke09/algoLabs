@@ -1,8 +1,7 @@
 const assert = require('chai').assert;
 const app = require('../script/app.js');
 
-describe('Arithmetic Calculations', () => {
-  describe('handle valid input', () => {
+describe('OOP models', () => {
     it('should return object for the instance of the class', () => {
       const gm = new app.Vehicle();
       assert.equal(typeof(gm),'object');
@@ -39,7 +38,6 @@ describe('Arithmetic Calculations', () => {
       const gm = new app.Vehicle('Toyota','saloon',2);
       assert.equal(gm.err, 'invalid input');
     });
-  });
 });
 
 // describe('Arithmetic Calculations', () => {
